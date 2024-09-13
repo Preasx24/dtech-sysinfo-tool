@@ -1,39 +1,39 @@
 # D-TECH Sysinfo Tool
 
 ## Description
-This is a simple system information tool for Termux.
+D-TECH Sysinfo Tool is a simple yet powerful system information utility designed for Termux.
 
 ## Installation
 
-1. Update and Upgrade Termux Packages (First Time Only):
+### Step 1: Update and Upgrade Termux Packages (First Time Only):
+```bash
+pkg update && pkg upgrade
+```
 
-  
-   pkg update && pkg upgrade
-   
-2. Install Required Packages (First Time Only):
+### Step 2: Install Required Packages (First Time Only):
+```bash
+pkg install figlet neofetch
+```
 
-  
-   pkg install figlet neofetch
-   
-3. Clone the Repository:
+### Step 3: Clone the Repository:
+```bash
+git clone https://github.com/preasx24/dtech-sysinfo-tool.git
+```
 
-  
-   git clone https://github.com/preasx24/dtech-sysinfo-tool.git
-   
-4. Navigate to the Directory:
+### Step 4: Navigate to the Directory:
+```bash
+cd dtech-sysinfo-tool
+```
 
-  
-   cd dtech-sysinfo-tool
-   
-5. Make the Script Executable (if needed):
+### Step 5: Make the Script Executable (if needed):
+```bash
+chmod +x dtech-sysinfo.sh
+```
 
-  
-   chmod +x dtech-sysinfo.sh
-   
-6. Run the Tool:
+### Step 6: Run the Tool:
+```bash
+./dtech-sysinfo.sh
+```
 
-  
-   ./dtech-sysinfo.sh
-   
 ## Contact
-Tool developed by PREASX24. For more information, visit [GitHub](https://github.com/preasx24).
+Tool developed by **PREASX24**. For more information, visit [GitHub](https://github.com/preasx24).
